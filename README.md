@@ -100,8 +100,7 @@ To follow along, this application has been documented as an article on Pusher bl
 
 
 
-**Consuming Service at Scale
-A simple implementation on how to use a RESTful API in React.
+###  Service at Scale
 
 
 
