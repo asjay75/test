@@ -74,32 +74,6 @@ printf("Now: %s", Carbon::now());
 
 
 
-
-
-
-
-**Consuming a RESTful API in React
-A simple implementation on how to use a RESTful API in React.
-
-To follow along, this application has been documented as an article on Pusher blog. You can read about it here
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ###  Service at Scale
 
 
