@@ -39,31 +39,17 @@ printf("Now: %s", Carbon::now());
 
 
 
+### Flight Service
 
-=======================================================
-
-Set up
-To set up this project, first clone the repository
-
-<sup>
-  $ git clone https://github.com/fisayoafolayan/consuming-restful-api-in-react.git
-  Change your working directory into the project directory
-</sup>
-
-$ cd consuming-restful-api-in-react
-Run
-Install npm modules
-
-$ npm install
-Start the application
-
-$ npm start
-Built With
-React
+Client will call API service to get the JWT token .
+API service will make  asynchronous   calls to 5 downstream services to get the Flight Data for the input provided .
 
 
 
-![Flight](https://user-images.githubusercontent.com/24268967/195988094-fd07fdbf-cacf-4063-b8bb-88776e5cd913.png)
+
+
+![flight4](https://user-images.githubusercontent.com/24268967/195989367-66d64457-aad2-4cb4-bdbf-47b86102a6c9.png)
+
 
 
 
