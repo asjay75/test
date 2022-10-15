@@ -8,11 +8,9 @@ docker-compose up
 ```
 
 ```json
-{
-    "require": {
-        "nesbot/carbon": "^2.16"
-    }
-}
+http://localhost:4000/flight/11-01-2022/DXB/LHR/
+
+Date : MM-DD-YYYY
 ```
 
 ```php
