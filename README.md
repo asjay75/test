@@ -26,22 +26,18 @@ printf("Now: %s", Carbon::now());
 
 Why are you not using [composer](https://getcomposer.org/)? Download the Carbon [latest release](https://github.com/briannesbitt/Carbon/releases) and put the contents of the ZIP archive into a directory in your project. Then require the file `autoload.php` to get all classes and dependencies loaded on need.
 
-```php
-<?php
-require 'path-to-Carbon-directory/autoload.php';
 
-use Carbon\Carbon;
-
-printf("Now: %s", Carbon::now());
-```
 
 ### Postman Result
 
-
+```
+{
+  "APP_NAME": "ek_user",
+  "PASSWORD": "e311g#987"
+}
+```
 <img width="1406" alt="auth_genarator" src="https://user-images.githubusercontent.com/24268967/195995057-de723bfb-90b6-4a4e-b9d1-bbb3b4d8b189.png">
-
 <img width="1406" alt="flight-result" src="https://user-images.githubusercontent.com/24268967/195995068-4f32cc8c-5c96-4263-905d-584539cc83d1.png">
-
 <img width="1406" alt="price-result" src="https://user-images.githubusercontent.com/24268967/195995087-83f406fa-0e9e-400b-b959-0fffae4e1116.png">
 
 
