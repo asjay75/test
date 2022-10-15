@@ -75,6 +75,25 @@ printf("Now: %s", Carbon::now());
 ###  Service at Scale
 
 
+## High availably setup 
+
+- Two AWS Region is considered 
+- Each region , Two Availability Zone is Considered .
+- Cluster Database is setup across each region .
+
+## Akamai Edge Solution is Considered 
+
+
+- Edge servers automatically drop network-layer DDoS attacks and protect the application layer from DDoS and application attacks. 
+- Stop traffic from malicious actors based on their specific reputation score, which is derived from Akamai’s visibility into prior behavior of their IP addresses. 
+- Automatically inspect API requests for malicious content and block attack tools based on device fingerprinting. 
+- SSL/TLS encryption to prevent sensitive data exposure during transmission
+- API Gateway validates API requests to ensure legitimate consumers can access APIs. 
+- API responses can be served from cache to improve performance and reduce infrastructure and bandwidth costs. 
+- Capture, retain, and deliver security information and events to your SIEM application in real time
+
+
+
 
 
 <img width="1068" alt="fourth" src="https://user-images.githubusercontent.com/24268967/195988136-7ff4d1c1-13b8-45b2-9fb3-44f414da88fe.png">
