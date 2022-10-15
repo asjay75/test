@@ -72,16 +72,16 @@ printf("Now: %s", Carbon::now());
 
 
 
-###  Service at Scale
+##  Service @ Scale
 
 
-## High availably setup 
+### High availably setup 
 
 - Two AWS Region is considered 
 - Each region , Two Availability Zone is Considered .
 - Cluster Database is setup across each region .
 
-## Akamai Edge Solution is Considered 
+### Akamai Edge Solution is Considered 
 
 
 - Edge servers automatically drop network-layer DDoS attacks and protect the application layer from DDoS and application attacks. 
