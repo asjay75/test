@@ -38,11 +38,19 @@ printf("Now: %s", Carbon::now());
 ```
 
 
+### Varnish(Cache service)
+
+- All Requests, except authorize call from Client to API service goes via Varnish
+- Varnish will Cache all the response from API service depending on the cache-control(max-age) set on the response header.
+
+
 
 ### Flight Service
 
-Client will call API service to get the JWT token .
-API service will make  asynchronous   calls to 5 downstream services to get the Flight Data for the input provided .
+- Client will call API service to get the JWT token .
+- API service will make  asynchronous   calls to 5 downstream services to get the Flight Data for the input provided .
+- Flight Number is Returned  to Client.
+
 
 
 
