@@ -8,7 +8,9 @@ docker-compose up
 ```
 
 ```
-http://localhost:4000/flight/11-01-2022/DXB/LHR/
+http://localhost:3001/api/auth
+http://localhost:4000/api/flight/11-01-2022/DXB/LHR/
+http://localhost:4000/api/price/EK001
 
 Date : MM-DD-YYYY
 ```
@@ -22,7 +24,10 @@ npm run dev
 ```
 
 ```
-http://localhost:3000/flight/11-01-2022/DXB/LHR/
+http://localhost:3001/api/auth
+http://localhost:3000/api/flight/11-01-2022/DXB/LHR/
+http://localhost:3000/api/price/EK001
+
 
 Date : MM-DD-YYYY
 ```
