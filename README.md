@@ -60,6 +60,12 @@ printf("Now: %s", Carbon::now());
 
 
 
+### Price Service
+
+- Client will call API service to get the JWT token .
+- API service will execute Complex Rule Engine [Json Rule Engine] to fetch the price for the input data.
+- Since the Rule Engine Data , the Data is stored in Application memory (Singleton Object) .
+- Price Data is returned to the Client
 
 
 
