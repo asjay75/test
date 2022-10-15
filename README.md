@@ -24,7 +24,7 @@ npm run dev
 ```
 
 ```
-http://localhost:3001/api/auth
+http://localhost:3000/api/auth
 http://localhost:3000/api/flight/11-01-2022/DXB/LHR/
 http://localhost:3000/api/price/EK001
 
