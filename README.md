@@ -1,5 +1,65 @@
 
+## Installation
 
+### With Composer
+
+```
+$ composer require nesbot/carbon
+```
+
+```json
+{
+    "require": {
+        "nesbot/carbon": "^2.16"
+    }
+}
+```
+
+```php
+<?php
+require 'vendor/autoload.php';
+
+use Carbon\Carbon;
+
+printf("Now: %s", Carbon::now());
+```
+
+### Without Composer
+
+Why are you not using [composer](https://getcomposer.org/)? Download the Carbon [latest release](https://github.com/briannesbitt/Carbon/releases) and put the contents of the ZIP archive into a directory in your project. Then require the file `autoload.php` to get all classes and dependencies loaded on need.
+
+```php
+<?php
+require 'path-to-Carbon-directory/autoload.php';
+
+use Carbon\Carbon;
+
+printf("Now: %s", Carbon::now());
+```
+
+
+
+
+=======================================================
+
+Set up
+To set up this project, first clone the repository
+
+<sup>
+  $ git clone https://github.com/fisayoafolayan/consuming-restful-api-in-react.git
+  Change your working directory into the project directory
+</sup>
+
+$ cd consuming-restful-api-in-react
+Run
+Install npm modules
+
+$ npm install
+Start the application
+
+$ npm start
+Built With
+React
 
 
 
@@ -23,24 +83,7 @@ A simple implementation on how to use a RESTful API in React.
 
 To follow along, this application has been documented as an article on Pusher blog. You can read about it here
 
-Set up
-To set up this project, first clone the repository
 
-<sup>
-  $ git clone https://github.com/fisayoafolayan/consuming-restful-api-in-react.git
-  Change your working directory into the project directory
-</sup>
-
-$ cd consuming-restful-api-in-react
-Run
-Install npm modules
-
-$ npm install
-Start the application
-
-$ npm start
-Built With
-React
 
 
 
