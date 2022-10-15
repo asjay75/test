@@ -4,7 +4,7 @@
 ### With Docker
 
 ```
-$ composer require nesbot/carbon
+docker-compose up
 ```
 
 ```json
