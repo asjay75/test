@@ -56,7 +56,9 @@ React
 
 
 
-**Service @ Scale
+
+**Consuming Service at Scale
+A simple implementation on how to use a RESTful API in React.
 
 
 
