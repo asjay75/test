@@ -36,9 +36,9 @@ Why are you not using [composer](https://getcomposer.org/)? Download the Carbon 
   "PASSWORD": "e311g#987"
 }
 ```
-<img width="1406" alt="auth_genarator" src="https://user-images.githubusercontent.com/24268967/195995057-de723bfb-90b6-4a4e-b9d1-bbb3b4d8b189.png">
-<img width="1406" alt="flight-result" src="https://user-images.githubusercontent.com/24268967/195995068-4f32cc8c-5c96-4263-905d-584539cc83d1.png">
-<img width="1406" alt="price-result" src="https://user-images.githubusercontent.com/24268967/195995087-83f406fa-0e9e-400b-b959-0fffae4e1116.png">
+<img width="685" alt="auth_genarator" src="https://user-images.githubusercontent.com/24268967/195995415-2f8f2d7a-9221-4007-aa42-2c3b2b86efc3.png">
+<img width="685" alt="flight-result" src="https://user-images.githubusercontent.com/24268967/195995420-5c6443a4-537c-48f3-a99a-05e779f4d9fe.png">
+<img width="696" alt="price-result" src="https://user-images.githubusercontent.com/24268967/195995422-978004d8-64f2-4841-9936-e719466d2804.png">
 
 
 ### Varnish(Cache ser
