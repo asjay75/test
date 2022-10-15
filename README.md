@@ -15,7 +15,7 @@
 
 
 
-<img width="1068" alt="fourth" src="https://user-images.githubusercontent.com/24268967/195988136-7ff4d1c1-13b8-45b2-9fb3-44f414da88fe.png">
+
 
 
 **Consuming a RESTful API in React
@@ -61,4 +61,4 @@ Service @ Scale
 
 
 
-![second-img](https://user-images.githubusercontent.com/24268967/195979824-32ef5376-5b04-411a-8e67-241c87df2f75.jpg)
+<img width="1068" alt="fourth" src="https://user-images.githubusercontent.com/24268967/195988136-7ff4d1c1-13b8-45b2-9fb3-44f414da88fe.png">
