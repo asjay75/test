@@ -1,7 +1,7 @@
 
 ## Installation
 
-### With Composer
+### With Docker
 
 ```
 $ composer require nesbot/carbon
@@ -24,7 +24,7 @@ use Carbon\Carbon;
 printf("Now: %s", Carbon::now());
 ```
 
-### Without Composer
+### Without Docker
 
 Why are you not using [composer](https://getcomposer.org/)? Download the Carbon [latest release](https://github.com/briannesbitt/Carbon/releases) and put the contents of the ZIP archive into a directory in your project. Then require the file `autoload.php` to get all classes and dependencies loaded on need.
 
