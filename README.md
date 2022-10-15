@@ -1,5 +1,5 @@
 
-## Installation
+## Installation and Testing
 
 ### With Docker
 
@@ -35,8 +35,18 @@ use Carbon\Carbon;
 printf("Now: %s", Carbon::now());
 ```
 
+### Postman Result
 
-### Varnish(Cache service)
+
+<img width="1406" alt="auth_genarator" src="https://user-images.githubusercontent.com/24268967/195995057-de723bfb-90b6-4a4e-b9d1-bbb3b4d8b189.png">
+
+<img width="1406" alt="flight-result" src="https://user-images.githubusercontent.com/24268967/195995068-4f32cc8c-5c96-4263-905d-584539cc83d1.png">
+
+<img width="1406" alt="price-result" src="https://user-images.githubusercontent.com/24268967/195995087-83f406fa-0e9e-400b-b959-0fffae4e1116.png">
+
+
+### Varnish(Cache ser
+vice)
 
 - All Requests, except authorize call from Client to API service goes via Varnish
 - Varnish will Cache all the response from API service depending on the cache-control(max-age) set on the response header.
